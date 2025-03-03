@@ -42,7 +42,6 @@
             this.txtNom = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.txtPrenom = new System.Windows.Forms.TextBox();
-            this.txtSexe = new System.Windows.Forms.TextBox();
             this.txtAdresse = new System.Windows.Forms.TextBox();
             this.txtTelephone = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
@@ -52,6 +51,8 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -203,17 +204,6 @@
             this.txtPrenom.TabIndex = 28;
             this.txtPrenom.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
             // 
-            // txtSexe
-            // 
-            this.txtSexe.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txtSexe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSexe.Location = new System.Drawing.Point(100, 215);
-            this.txtSexe.Multiline = true;
-            this.txtSexe.Name = "txtSexe";
-            this.txtSexe.Size = new System.Drawing.Size(169, 27);
-            this.txtSexe.TabIndex = 29;
-            this.txtSexe.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
-            // 
             // txtAdresse
             // 
             this.txtAdresse.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -304,12 +294,36 @@
             this.btnClear.Text = "Effacer";
             this.btnClear.UseVisualStyleBackColor = false;
             // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(100, 224);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(61, 17);
+            this.radioButton1.TabIndex = 38;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Homme";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(184, 224);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(59, 17);
+            this.radioButton2.TabIndex = 39;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Femme";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
             // FormEtudiant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 498);
+            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnUpdate);
@@ -318,7 +332,6 @@
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtTelephone);
             this.Controls.Add(this.txtAdresse);
-            this.Controls.Add(this.txtSexe);
             this.Controls.Add(this.txtPrenom);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.dateTimePicker1);
@@ -359,7 +372,6 @@
         private System.Windows.Forms.TextBox txtNom;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.TextBox txtPrenom;
-        private System.Windows.Forms.TextBox txtSexe;
         private System.Windows.Forms.TextBox txtAdresse;
         private System.Windows.Forms.TextBox txtTelephone;
         private System.Windows.Forms.TextBox txtEmail;
@@ -369,5 +381,7 @@
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
     }
 }

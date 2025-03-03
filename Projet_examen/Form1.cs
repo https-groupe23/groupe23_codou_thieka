@@ -19,8 +19,8 @@ namespace Projet_examen
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            FormClasse formClasse = new FormClasse();
-            formClasse.ShowDialog();
+            FormEtudiant formEtudiant = new FormEtudiant();
+            formEtudiant.ShowDialog();
         }
 
         private void label2_Click(object sender, EventArgs e)

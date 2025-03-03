@@ -38,20 +38,20 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtMatricule = new System.Windows.Forms.TextBox();
+            this.txtNom = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.txtPrenom = new System.Windows.Forms.TextBox();
+            this.txtSexe = new System.Windows.Forms.TextBox();
+            this.txtAdresse = new System.Windows.Forms.TextBox();
+            this.txtTelephone = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.cbClasse = new System.Windows.Forms.ComboBox();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -162,27 +162,27 @@
             this.label10.Text = "Prénom";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
-            // textBox1
+            // txtMatricule
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Location = new System.Drawing.Point(100, 52);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(169, 29);
-            this.textBox1.TabIndex = 10;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtMatricule.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtMatricule.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtMatricule.Location = new System.Drawing.Point(100, 52);
+            this.txtMatricule.Multiline = true;
+            this.txtMatricule.Name = "txtMatricule";
+            this.txtMatricule.Size = new System.Drawing.Size(169, 29);
+            this.txtMatricule.TabIndex = 10;
+            this.txtMatricule.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox10
+            // txtNom
             // 
-            this.textBox10.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox10.Location = new System.Drawing.Point(100, 97);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(169, 27);
-            this.textBox10.TabIndex = 19;
-            this.textBox10.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
+            this.txtNom.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtNom.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtNom.Location = new System.Drawing.Point(100, 97);
+            this.txtNom.Multiline = true;
+            this.txtNom.Name = "txtNom";
+            this.txtNom.Size = new System.Drawing.Size(169, 27);
+            this.txtNom.TabIndex = 19;
+            this.txtNom.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
             // 
             // dateTimePicker1
             // 
@@ -192,58 +192,58 @@
             this.dateTimePicker1.TabIndex = 20;
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // textBox8
+            // txtPrenom
             // 
-            this.textBox8.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox8.Location = new System.Drawing.Point(100, 146);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(169, 27);
-            this.textBox8.TabIndex = 28;
-            this.textBox8.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
+            this.txtPrenom.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtPrenom.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtPrenom.Location = new System.Drawing.Point(100, 146);
+            this.txtPrenom.Multiline = true;
+            this.txtPrenom.Name = "txtPrenom";
+            this.txtPrenom.Size = new System.Drawing.Size(169, 27);
+            this.txtPrenom.TabIndex = 28;
+            this.txtPrenom.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
             // 
-            // textBox9
+            // txtSexe
             // 
-            this.textBox9.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox9.Location = new System.Drawing.Point(100, 215);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(169, 27);
-            this.textBox9.TabIndex = 29;
-            this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
+            this.txtSexe.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtSexe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSexe.Location = new System.Drawing.Point(100, 215);
+            this.txtSexe.Multiline = true;
+            this.txtSexe.Name = "txtSexe";
+            this.txtSexe.Size = new System.Drawing.Size(169, 27);
+            this.txtSexe.TabIndex = 29;
+            this.txtSexe.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
             // 
-            // textBox11
+            // txtAdresse
             // 
-            this.textBox11.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox11.Location = new System.Drawing.Point(100, 256);
-            this.textBox11.Multiline = true;
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(169, 27);
-            this.textBox11.TabIndex = 30;
-            this.textBox11.TextChanged += new System.EventHandler(this.textBox11_TextChanged);
+            this.txtAdresse.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtAdresse.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtAdresse.Location = new System.Drawing.Point(100, 256);
+            this.txtAdresse.Multiline = true;
+            this.txtAdresse.Name = "txtAdresse";
+            this.txtAdresse.Size = new System.Drawing.Size(169, 27);
+            this.txtAdresse.TabIndex = 30;
+            this.txtAdresse.TextChanged += new System.EventHandler(this.textBox11_TextChanged);
             // 
-            // textBox12
+            // txtTelephone
             // 
-            this.textBox12.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox12.Location = new System.Drawing.Point(100, 297);
-            this.textBox12.Multiline = true;
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(169, 27);
-            this.textBox12.TabIndex = 31;
+            this.txtTelephone.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtTelephone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtTelephone.Location = new System.Drawing.Point(100, 297);
+            this.txtTelephone.Multiline = true;
+            this.txtTelephone.Name = "txtTelephone";
+            this.txtTelephone.Size = new System.Drawing.Size(169, 27);
+            this.txtTelephone.TabIndex = 31;
             // 
-            // textBox13
+            // txtEmail
             // 
-            this.textBox13.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox13.Location = new System.Drawing.Point(100, 340);
-            this.textBox13.Multiline = true;
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(169, 27);
-            this.textBox13.TabIndex = 32;
+            this.txtEmail.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtEmail.Location = new System.Drawing.Point(100, 340);
+            this.txtEmail.Multiline = true;
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(169, 27);
+            this.txtEmail.TabIndex = 32;
             // 
             // dataGridView1
             // 
@@ -254,54 +254,55 @@
             this.dataGridView1.TabIndex = 21;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // comboBox1
+            // cbClasse
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(100, 386);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(169, 21);
-            this.comboBox1.TabIndex = 33;
+            this.cbClasse.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.cbClasse.FormattingEnabled = true;
+            this.cbClasse.Location = new System.Drawing.Point(100, 386);
+            this.cbClasse.Name = "cbClasse";
+            this.cbClasse.Size = new System.Drawing.Size(169, 21);
+            this.cbClasse.TabIndex = 33;
             // 
-            // button1
+            // btnAdd
             // 
-            this.button1.BackColor = System.Drawing.Color.Green;
-            this.button1.Location = new System.Drawing.Point(30, 442);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(91, 44);
-            this.button1.TabIndex = 34;
-            this.button1.Text = "Ajouter";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnAdd.BackColor = System.Drawing.Color.Green;
+            this.btnAdd.Location = new System.Drawing.Point(25, 452);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(91, 34);
+            this.btnAdd.TabIndex = 34;
+            this.btnAdd.Text = "Ajouter";
+            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
-            // button2
+            // btnUpdate
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button2.Location = new System.Drawing.Point(233, 442);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(85, 44);
-            this.button2.TabIndex = 35;
-            this.button2.Text = "Modifier";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnUpdate.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnUpdate.Location = new System.Drawing.Point(296, 452);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(85, 34);
+            this.btnUpdate.TabIndex = 35;
+            this.btnUpdate.Text = "Modifier";
+            this.btnUpdate.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnDelete
             // 
-            this.button3.BackColor = System.Drawing.Color.Red;
-            this.button3.Location = new System.Drawing.Point(450, 442);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(84, 44);
-            this.button3.TabIndex = 36;
-            this.button3.Text = "Supprimer";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnDelete.BackColor = System.Drawing.Color.Red;
+            this.btnDelete.Location = new System.Drawing.Point(603, 452);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(84, 34);
+            this.btnDelete.TabIndex = 36;
+            this.btnDelete.Text = "Supprimer";
+            this.btnDelete.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnClear
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button4.Location = new System.Drawing.Point(658, 442);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(88, 44);
-            this.button4.TabIndex = 37;
-            this.button4.Text = "Effacer";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnClear.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.btnClear.Location = new System.Drawing.Point(100, 409);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(65, 27);
+            this.btnClear.TabIndex = 37;
+            this.btnClear.Text = "Effacer";
+            this.btnClear.UseVisualStyleBackColor = false;
             // 
             // FormEtudiant
             // 
@@ -309,20 +310,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 498);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.cbClasse);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txtTelephone);
+            this.Controls.Add(this.txtAdresse);
+            this.Controls.Add(this.txtSexe);
+            this.Controls.Add(this.txtPrenom);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNom);
+            this.Controls.Add(this.txtMatricule);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -354,19 +355,19 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txtMatricule;
+        private System.Windows.Forms.TextBox txtNom;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox txtPrenom;
+        private System.Windows.Forms.TextBox txtSexe;
+        private System.Windows.Forms.TextBox txtAdresse;
+        private System.Windows.Forms.TextBox txtTelephone;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.ComboBox cbClasse;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnClear;
     }
 }

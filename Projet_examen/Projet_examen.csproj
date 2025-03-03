@@ -115,13 +115,9 @@
       <DependentUpon>FormUtilisateur.cs</DependentUpon>
     </Compile>
     <Compile Include="Matieres.cs" />
-    <Compile Include="Migrations\202502261344121_premier_migation.cs" />
-    <Compile Include="Migrations\202502261344121_premier_migation.Designer.cs">
-      <DependentUpon>202502261344121_premier_migation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202502261350091_second_migation.cs" />
-    <Compile Include="Migrations\202502261350091_second_migation.Designer.cs">
-      <DependentUpon>202502261350091_second_migation.cs</DependentUpon>
+    <Compile Include="Migrations\202503021351480_second_migration.cs" />
+    <Compile Include="Migrations\202503021351480_second_migration.Designer.cs">
+      <DependentUpon>202503021351480_second_migration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Notes.cs" />
@@ -157,11 +153,8 @@
     <EmbeddedResource Include="FormUtilisateur.resx">
       <DependentUpon>FormUtilisateur.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202502261344121_premier_migation.resx">
-      <DependentUpon>202502261344121_premier_migation.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202502261350091_second_migation.resx">
-      <DependentUpon>202502261350091_second_migation.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202503021351480_second_migration.resx">
+      <DependentUpon>202503021351480_second_migration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

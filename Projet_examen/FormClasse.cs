@@ -97,8 +97,6 @@ namespace Projet_examen
                                 MessageBox.Show("Les informations de la classe ont été mises à jour avec succès.", "Modification réussie", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                 Clear();
                             }
-
-       
                            
                         }
                         else

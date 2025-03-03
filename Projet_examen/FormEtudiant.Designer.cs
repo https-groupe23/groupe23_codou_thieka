@@ -41,7 +41,7 @@
             this.txtMatricule = new System.Windows.Forms.TextBox();
             this.txtNom = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.txtPrenom = new System.Windows.Forms.TextBox();
+            this.txtprenom = new System.Windows.Forms.TextBox();
             this.txtAdresse = new System.Windows.Forms.TextBox();
             this.txtTelephone = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
@@ -170,6 +170,7 @@
             this.txtMatricule.Location = new System.Drawing.Point(100, 52);
             this.txtMatricule.Multiline = true;
             this.txtMatricule.Name = "txtMatricule";
+            this.txtMatricule.ReadOnly = true;
             this.txtMatricule.Size = new System.Drawing.Size(169, 29);
             this.txtMatricule.TabIndex = 10;
             this.txtMatricule.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -193,16 +194,16 @@
             this.dateTimePicker1.TabIndex = 20;
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // txtPrenom
+            // txtprenom
             // 
-            this.txtPrenom.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txtPrenom.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtPrenom.Location = new System.Drawing.Point(100, 146);
-            this.txtPrenom.Multiline = true;
-            this.txtPrenom.Name = "txtPrenom";
-            this.txtPrenom.Size = new System.Drawing.Size(169, 27);
-            this.txtPrenom.TabIndex = 28;
-            this.txtPrenom.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
+            this.txtprenom.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtprenom.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtprenom.Location = new System.Drawing.Point(100, 146);
+            this.txtprenom.Multiline = true;
+            this.txtprenom.Name = "txtprenom";
+            this.txtprenom.Size = new System.Drawing.Size(169, 27);
+            this.txtprenom.TabIndex = 28;
+            this.txtprenom.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
             // 
             // txtAdresse
             // 
@@ -224,6 +225,7 @@
             this.txtTelephone.Name = "txtTelephone";
             this.txtTelephone.Size = new System.Drawing.Size(169, 27);
             this.txtTelephone.TabIndex = 31;
+            this.txtTelephone.MouseLeave += new System.EventHandler(this.txtTelephone_MouseLeave);
             // 
             // txtEmail
             // 
@@ -332,7 +334,7 @@
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtTelephone);
             this.Controls.Add(this.txtAdresse);
-            this.Controls.Add(this.txtPrenom);
+            this.Controls.Add(this.txtprenom);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.txtNom);
@@ -371,7 +373,7 @@
         private System.Windows.Forms.TextBox txtMatricule;
         private System.Windows.Forms.TextBox txtNom;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox txtPrenom;
+        private System.Windows.Forms.TextBox txtprenom;
         private System.Windows.Forms.TextBox txtAdresse;
         private System.Windows.Forms.TextBox txtTelephone;
         private System.Windows.Forms.TextBox txtEmail;

@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\formetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\formetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\formetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|c:\\users\\sowth\\onedrive\\documents\\licence 3\\examen\\projet_examen\\formetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\formetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|c:\\users\\sowth\\onedrive\\documents\\licence 3\\examen\\projet_examen\\formdashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\formdashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\etudiants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\etudiants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\formetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\formetudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\formclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\formclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\formclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\formclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\cours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\cours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\formclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\formclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\formdashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\formdashbord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\formcours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -39,14 +59,6 @@
       "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\dbscolairecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\formclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\formclasse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\migrations\\202503021351480_second_migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\migrations\\202503021351480_second_migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -57,14 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\etudiants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\etudiants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\formotpcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -81,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\formnote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\formnote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\cours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|solutionrelative:projet_examen\\cours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B743874D-8563-4E09-A701-DDC4135088F0}|Projet_examen\\Projet_examen.csproj|C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\projet_examen\\matieres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,7 +127,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -139,77 +139,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormDashbord.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormDashbord.cs",
-              "RelativeDocumentMoniker": "Projet_examen\\FormDashbord.cs",
-              "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormDashbord.cs [Design]",
-              "RelativeToolTip": "Projet_examen\\FormDashbord.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T14:37:43.413Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FormEtudiant.cs",
               "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormEtudiant.cs",
               "RelativeDocumentMoniker": "Projet_examen\\FormEtudiant.cs",
               "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormEtudiant.cs",
               "RelativeToolTip": "Projet_examen\\FormEtudiant.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAADwv2AAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAswJoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T13:18:25.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormCours.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormCours.cs",
-              "RelativeDocumentMoniker": "Projet_examen\\FormCours.cs",
-              "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormCours.cs [Design]",
-              "RelativeToolTip": "Projet_examen\\FormCours.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T14:40:14.77Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormUtilisateur.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormUtilisateur.cs",
-              "RelativeDocumentMoniker": "Projet_examen\\FormUtilisateur.cs",
-              "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormUtilisateur.cs [Design]",
-              "RelativeToolTip": "Projet_examen\\FormUtilisateur.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T15:19:00.545Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "202503021351480_second_migration.cs",
-              "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Migrations\\202503021351480_second_migration.cs",
-              "RelativeDocumentMoniker": "Projet_examen\\Migrations\\202503021351480_second_migration.cs",
-              "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Migrations\\202503021351480_second_migration.cs",
-              "RelativeToolTip": "Projet_examen\\Migrations\\202503021351480_second_migration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T13:52:00.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormNote.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormNote.cs",
-              "RelativeDocumentMoniker": "Projet_examen\\FormNote.cs",
-              "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormNote.cs [Design]",
-              "RelativeToolTip": "Projet_examen\\FormNote.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T15:11:09.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FormEtudiant.cs [Design]",
               "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormEtudiant.cs",
               "RelativeDocumentMoniker": "Projet_examen\\FormEtudiant.cs",
@@ -221,15 +164,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormClasse.cs",
-              "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormClasse.cs",
-              "RelativeDocumentMoniker": "Projet_examen\\FormClasse.cs",
-              "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormClasse.cs",
-              "RelativeToolTip": "Projet_examen\\FormClasse.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAASwFsAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Etudiants.cs",
+              "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Etudiants.cs",
+              "RelativeDocumentMoniker": "Projet_examen\\Etudiants.cs",
+              "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Etudiants.cs",
+              "RelativeToolTip": "Projet_examen\\Etudiants.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAzwCMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T17:12:41.032Z"
+              "WhenOpened": "2025-02-24T00:35:15.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Classes.cs",
+              "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Classes.cs",
+              "RelativeDocumentMoniker": "Projet_examen\\Classes.cs",
+              "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Classes.cs",
+              "RelativeToolTip": "Projet_examen\\Classes.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T00:35:40.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cours.cs",
+              "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Cours.cs",
+              "RelativeDocumentMoniker": "Projet_examen\\Cours.cs",
+              "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Cours.cs",
+              "RelativeToolTip": "Projet_examen\\Cours.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T00:35:58.744Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -240,34 +210,107 @@
               "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormClasse.cs [Design]",
               "RelativeToolTip": "Projet_examen\\FormClasse.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T14:43:01.5Z"
+              "WhenOpened": "2025-02-27T14:43:01.5Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "FormClasse.cs",
+              "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormClasse.cs",
+              "RelativeDocumentMoniker": "Projet_examen\\FormClasse.cs",
+              "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormClasse.cs",
+              "RelativeToolTip": "Projet_examen\\FormClasse.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwDsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:12:41.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Form1.cs",
               "RelativeDocumentMoniker": "Projet_examen\\Form1.cs",
               "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Form1.cs [Design]",
               "RelativeToolTip": "Projet_examen\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T00:28:46.266Z"
+              "WhenOpened": "2025-02-24T00:28:46.266Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Form1.cs",
               "RelativeDocumentMoniker": "Projet_examen\\Form1.cs",
               "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Form1.cs",
               "RelativeToolTip": "Projet_examen\\Form1.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADgvxYAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T13:32:32.887Z"
+              "WhenOpened": "2025-02-27T13:32:32.887Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
+              "Title": "FormDashbord.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormDashbord.cs",
+              "RelativeDocumentMoniker": "Projet_examen\\FormDashbord.cs",
+              "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormDashbord.cs [Design]",
+              "RelativeToolTip": "Projet_examen\\FormDashbord.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T14:37:43.413Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormNote.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormNote.cs",
+              "RelativeDocumentMoniker": "Projet_examen\\FormNote.cs",
+              "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormNote.cs [Design]",
+              "RelativeToolTip": "Projet_examen\\FormNote.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T15:11:09.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "202503021351480_second_migration.cs",
+              "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Migrations\\202503021351480_second_migration.cs",
+              "RelativeDocumentMoniker": "Projet_examen\\Migrations\\202503021351480_second_migration.cs",
+              "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Migrations\\202503021351480_second_migration.cs",
+              "RelativeToolTip": "Projet_examen\\Migrations\\202503021351480_second_migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T13:52:00.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormUtilisateur.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormUtilisateur.cs",
+              "RelativeDocumentMoniker": "Projet_examen\\FormUtilisateur.cs",
+              "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormUtilisateur.cs [Design]",
+              "RelativeToolTip": "Projet_examen\\FormUtilisateur.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T15:19:00.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormCours.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormCours.cs",
+              "RelativeDocumentMoniker": "Projet_examen\\FormCours.cs",
+              "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormCours.cs [Design]",
+              "RelativeToolTip": "Projet_examen\\FormCours.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T14:40:14.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "DBScolaireContext.cs",
               "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\DBScolaireContext.cs",
               "RelativeDocumentMoniker": "Projet_examen\\DBScolaireContext.cs",
@@ -279,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "Projet_examen\\Migrations\\Configuration.cs",
@@ -291,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\App.config",
               "RelativeDocumentMoniker": "Projet_examen\\App.config",
@@ -304,31 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Etudiants.cs",
-              "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Etudiants.cs",
-              "RelativeDocumentMoniker": "Projet_examen\\Etudiants.cs",
-              "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Etudiants.cs",
-              "RelativeToolTip": "Projet_examen\\Etudiants.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBUAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T00:35:15.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Classes.cs",
-              "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Classes.cs",
-              "RelativeDocumentMoniker": "Projet_examen\\Classes.cs",
-              "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Classes.cs",
-              "RelativeToolTip": "Projet_examen\\Classes.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T00:35:40.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "FormOTPcode.cs [Design]",
               "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormOTPcode.cs",
               "RelativeDocumentMoniker": "Projet_examen\\FormOTPcode.cs",
@@ -339,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "FormProfesseur.cs [Design]",
               "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormProfesseur.cs",
               "RelativeDocumentMoniker": "Projet_examen\\FormProfesseur.cs",
@@ -350,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "FormMatiere.cs [Design]",
               "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormMatiere.cs",
               "RelativeDocumentMoniker": "Projet_examen\\FormMatiere.cs",
@@ -361,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "FormNote.cs",
               "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\FormNote.cs",
               "RelativeDocumentMoniker": "Projet_examen\\FormNote.cs",
@@ -404,18 +423,6 @@
               "RelativeToolTip": "..\\C#\\Projet_examen\\Projet_examen\\Migrations\\202502261344121_premier_migation.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T13:44:25.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Cours.cs",
-              "DocumentMoniker": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Cours.cs",
-              "RelativeDocumentMoniker": "Projet_examen\\Cours.cs",
-              "ToolTip": "C:\\Users\\sowth\\OneDrive\\Documents\\LIcence 3\\examen\\Projet_examen\\Cours.cs",
-              "RelativeToolTip": "Projet_examen\\Cours.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T00:35:58.744Z"
             },
             {
               "$type": "Document",

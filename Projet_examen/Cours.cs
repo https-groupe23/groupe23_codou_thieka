@@ -14,6 +14,19 @@ namespace Projet_examen
         public string Description { get; set; }
         public  virtual ICollection<Classes> classes { get; set; }
         public virtual ICollection<Matieres> matieres { get; set; }
+        public Cours()
+        {
+            classes = new HashSet<Classes>(); // Initialiser la collection
+        }
+
+
+    }
+    internal class Coursvieuw
+    {
+        public int Id { get; set; }
+        public string NomCours { get; set; }
+        public string Description { get; set; }
+        public string classes { get; set; }
 
 
     }

@@ -28,27 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNom = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtDescription = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.txtIdCours = new System.Windows.Forms.TextBox();
+            this.clbClasses = new System.Windows.Forms.CheckedListBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtNom
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Location = new System.Drawing.Point(40, 107);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(169, 29);
-            this.textBox1.TabIndex = 11;
+            this.txtNom.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtNom.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtNom.Location = new System.Drawing.Point(40, 107);
+            this.txtNom.Multiline = true;
+            this.txtNom.Name = "txtNom";
+            this.txtNom.Size = new System.Drawing.Size(169, 29);
+            this.txtNom.TabIndex = 11;
             // 
             // label2
             // 
@@ -62,11 +64,13 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(270, 61);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(518, 296);
             this.dataGridView1.TabIndex = 13;
+            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
             // label1
             // 
@@ -78,15 +82,15 @@
             this.label1.TabIndex = 14;
             this.label1.Text = "Description";
             // 
-            // textBox2
+            // txtDescription
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Location = new System.Drawing.Point(40, 185);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(197, 76);
-            this.textBox2.TabIndex = 15;
+            this.txtDescription.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtDescription.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtDescription.Location = new System.Drawing.Point(40, 185);
+            this.txtDescription.Multiline = true;
+            this.txtDescription.Name = "txtDescription";
+            this.txtDescription.Size = new System.Drawing.Size(197, 76);
+            this.txtDescription.TabIndex = 15;
             // 
             // label3
             // 
@@ -99,34 +103,57 @@
             this.label3.TabIndex = 16;
             this.label3.Text = "Gestion Des Cours";
             // 
-            // button1
+            // btnAdd
             // 
-            this.button1.BackColor = System.Drawing.Color.Green;
-            this.button1.Location = new System.Drawing.Point(40, 381);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(91, 41);
-            this.button1.TabIndex = 35;
-            this.button1.Text = "Associer";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnAdd.BackColor = System.Drawing.Color.Green;
+            this.btnAdd.Location = new System.Drawing.Point(40, 381);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(91, 41);
+            this.btnAdd.TabIndex = 35;
+            this.btnAdd.Text = "Ajouter";
+            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
-            // comboBox1
+            // btnUpdate
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(40, 321);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(169, 21);
-            this.comboBox1.TabIndex = 36;
+            this.btnUpdate.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnUpdate.Location = new System.Drawing.Point(285, 388);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(85, 34);
+            this.btnUpdate.TabIndex = 38;
+            this.btnUpdate.Text = "Modifier";
+            this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(41, 287);
+            this.label4.Location = new System.Drawing.Point(36, 274);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(63, 20);
             this.label4.TabIndex = 37;
             this.label4.Text = "Classe";
+            // 
+            // txtIdCours
+            // 
+            this.txtIdCours.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtIdCours.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtIdCours.Location = new System.Drawing.Point(40, 12);
+            this.txtIdCours.Multiline = true;
+            this.txtIdCours.Name = "txtIdCours";
+            this.txtIdCours.Size = new System.Drawing.Size(169, 29);
+            this.txtIdCours.TabIndex = 40;
+            this.txtIdCours.Visible = false;
+            // 
+            // clbClasses
+            // 
+            this.clbClasses.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.clbClasses.FormattingEnabled = true;
+            this.clbClasses.Location = new System.Drawing.Point(38, 297);
+            this.clbClasses.Name = "clbClasses";
+            this.clbClasses.Size = new System.Drawing.Size(120, 79);
+            this.clbClasses.TabIndex = 41;
             // 
             // FormCours
             // 
@@ -134,17 +161,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.clbClasses);
+            this.Controls.Add(this.txtIdCours);
+            this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtDescription);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNom);
             this.Name = "FormCours";
             this.Text = "Cours";
+            this.Load += new System.EventHandler(this.FormCours_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -153,14 +183,16 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNom;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtDescription;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtIdCours;
+        private System.Windows.Forms.CheckedListBox clbClasses;
     }
 }

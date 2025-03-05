@@ -17,4 +17,13 @@ namespace Projet_examen
         public string Role { get; set; }
         public virtual ICollection<OTPCodes> otpcodes { get; set; }
     }
+
+    internal class Userview
+    {
+        public int Id { get; set; }
+        public string NomUtilisateur { get; set; }
+        // public string MotDepasse { get; set; }
+        public string Telephone { get; set; }
+        public string Role { get; set; }
+    }
 }

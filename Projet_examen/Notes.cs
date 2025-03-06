@@ -15,4 +15,12 @@ namespace Projet_examen
         public virtual Etudiants etudiant { get; set; }
         public virtual Matieres matiere { get; set; }
     }
+    internal class Noteview
+    {
+        public int Id { get; set; }
+        public float Note { get; set; }
+        public string Etudiant { get; set; }
+        public string Matiere { get; set; }
+
+    }
 }

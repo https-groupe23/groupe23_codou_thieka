@@ -37,6 +37,11 @@
             this.oTPcodeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.professeursToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.utilisateursToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rapportsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.genererLesRelevésDeNotesDunEtudiantToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.genererLaListeDesEtudiantsParClasseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.genererLaListeDesEtudiantsParClassesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exporterLesRapportsEnPDFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +55,8 @@
             this.noteToolStripMenuItem,
             this.oTPcodeToolStripMenuItem,
             this.professeursToolStripMenuItem,
-            this.utilisateursToolStripMenuItem});
+            this.utilisateursToolStripMenuItem,
+            this.rapportsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -114,6 +120,41 @@
             this.utilisateursToolStripMenuItem.Text = "Utilisateurs";
             this.utilisateursToolStripMenuItem.Click += new System.EventHandler(this.utilisateursToolStripMenuItem_Click);
             // 
+            // rapportsToolStripMenuItem
+            // 
+            this.rapportsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.genererLesRelevésDeNotesDunEtudiantToolStripMenuItem,
+            this.genererLaListeDesEtudiantsParClasseToolStripMenuItem,
+            this.genererLaListeDesEtudiantsParClassesToolStripMenuItem,
+            this.exporterLesRapportsEnPDFToolStripMenuItem});
+            this.rapportsToolStripMenuItem.Name = "rapportsToolStripMenuItem";
+            this.rapportsToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.rapportsToolStripMenuItem.Text = "Rapports";
+            // 
+            // genererLesRelevésDeNotesDunEtudiantToolStripMenuItem
+            // 
+            this.genererLesRelevésDeNotesDunEtudiantToolStripMenuItem.Name = "genererLesRelevésDeNotesDunEtudiantToolStripMenuItem";
+            this.genererLesRelevésDeNotesDunEtudiantToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.genererLesRelevésDeNotesDunEtudiantToolStripMenuItem.Text = "Generer les relevés de notes d\'un etudiant";
+            // 
+            // genererLaListeDesEtudiantsParClasseToolStripMenuItem
+            // 
+            this.genererLaListeDesEtudiantsParClasseToolStripMenuItem.Name = "genererLaListeDesEtudiantsParClasseToolStripMenuItem";
+            this.genererLaListeDesEtudiantsParClasseToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.genererLaListeDesEtudiantsParClasseToolStripMenuItem.Text = "Generer la liste des etudiants par classe";
+            // 
+            // genererLaListeDesEtudiantsParClassesToolStripMenuItem
+            // 
+            this.genererLaListeDesEtudiantsParClassesToolStripMenuItem.Name = "genererLaListeDesEtudiantsParClassesToolStripMenuItem";
+            this.genererLaListeDesEtudiantsParClassesToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.genererLaListeDesEtudiantsParClassesToolStripMenuItem.Text = "Generer la liste des etudiants par classes";
+            // 
+            // exporterLesRapportsEnPDFToolStripMenuItem
+            // 
+            this.exporterLesRapportsEnPDFToolStripMenuItem.Name = "exporterLesRapportsEnPDFToolStripMenuItem";
+            this.exporterLesRapportsEnPDFToolStripMenuItem.Size = new System.Drawing.Size(293, 22);
+            this.exporterLesRapportsEnPDFToolStripMenuItem.Text = "Exporter les rapports en PDF ou en Exel";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -144,6 +185,11 @@
         private System.Windows.Forms.ToolStripMenuItem oTPcodeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem professeursToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem utilisateursToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem rapportsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem genererLesRelevésDeNotesDunEtudiantToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem genererLaListeDesEtudiantsParClasseToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem genererLaListeDesEtudiantsParClassesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exporterLesRapportsEnPDFToolStripMenuItem;
     }
 }
 

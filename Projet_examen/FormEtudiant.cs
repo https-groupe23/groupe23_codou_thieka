@@ -286,8 +286,7 @@ namespace Projet_examen
         {
             if (e.RowIndex >= 0 && e.RowIndex < dataGridView1.Rows.Count)
             {
-                try
-                {
+               
                     btnUpdate.Enabled = true;
                     btnDelete.Enabled = true;
                     DataGridViewRow selectedRow = dataGridView1.Rows[e.RowIndex];
@@ -312,11 +311,7 @@ namespace Projet_examen
                     btnAdd.Enabled = false;
 
 
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Impossible de charger les données: " + ex.InnerException?.Message, "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+               
             }
         }
 

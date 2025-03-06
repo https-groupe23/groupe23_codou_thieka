@@ -37,6 +37,8 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.txtIdClasse = new System.Windows.Forms.TextBox();
+            this.clbCours = new System.Windows.Forms.CheckedListBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewClasse)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,7 +56,7 @@
             // 
             this.txtnom.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.txtnom.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtnom.Location = new System.Drawing.Point(35, 160);
+            this.txtnom.Location = new System.Drawing.Point(35, 151);
             this.txtnom.Multiline = true;
             this.txtnom.Name = "txtnom";
             this.txtnom.Size = new System.Drawing.Size(169, 29);
@@ -117,9 +119,9 @@
             // btnClear
             // 
             this.btnClear.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.btnClear.Location = new System.Drawing.Point(35, 195);
+            this.btnClear.Location = new System.Drawing.Point(35, 329);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(88, 43);
+            this.btnClear.Size = new System.Drawing.Size(88, 26);
             this.btnClear.TabIndex = 39;
             this.btnClear.Text = "Effacer";
             this.btnClear.UseVisualStyleBackColor = false;
@@ -129,12 +131,31 @@
             // 
             this.txtIdClasse.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.txtIdClasse.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtIdClasse.Location = new System.Drawing.Point(35, 277);
+            this.txtIdClasse.Location = new System.Drawing.Point(35, 49);
             this.txtIdClasse.Multiline = true;
             this.txtIdClasse.Name = "txtIdClasse";
             this.txtIdClasse.Size = new System.Drawing.Size(169, 29);
             this.txtIdClasse.TabIndex = 40;
             this.txtIdClasse.Visible = false;
+            // 
+            // clbCours
+            // 
+            this.clbCours.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.clbCours.FormattingEnabled = true;
+            this.clbCours.Location = new System.Drawing.Point(35, 229);
+            this.clbCours.Name = "clbCours";
+            this.clbCours.Size = new System.Drawing.Size(120, 94);
+            this.clbCours.TabIndex = 41;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(31, 197);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(131, 20);
+            this.label3.TabIndex = 42;
+            this.label3.Text = "Liste des cours";
             // 
             // FormClasse
             // 
@@ -142,6 +163,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.clbCours);
             this.Controls.Add(this.txtIdClasse);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnDelete);
@@ -171,5 +194,7 @@
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.TextBox txtIdClasse;
+        private System.Windows.Forms.CheckedListBox clbCours;
+        private System.Windows.Forms.Label label3;
     }
 }

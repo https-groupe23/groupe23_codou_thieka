@@ -150,7 +150,7 @@
             // 
             this.clbClasses.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.clbClasses.FormattingEnabled = true;
-            this.clbClasses.Location = new System.Drawing.Point(38, 297);
+            this.clbClasses.Location = new System.Drawing.Point(38, 296);
             this.clbClasses.Name = "clbClasses";
             this.clbClasses.Size = new System.Drawing.Size(120, 79);
             this.clbClasses.TabIndex = 41;

@@ -33,8 +33,8 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.btnAdd = new System.Windows.Forms.Button();
-            this.cbCours = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.clbCours = new System.Windows.Forms.CheckedListBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -89,15 +89,6 @@
             this.btnAdd.UseVisualStyleBackColor = false;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
-            // cbCours
-            // 
-            this.cbCours.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.cbCours.FormattingEnabled = true;
-            this.cbCours.Location = new System.Drawing.Point(27, 270);
-            this.cbCours.Name = "cbCours";
-            this.cbCours.Size = new System.Drawing.Size(169, 21);
-            this.cbCours.TabIndex = 39;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -108,14 +99,23 @@
             this.label4.TabIndex = 40;
             this.label4.Text = "Cours";
             // 
+            // clbCours
+            // 
+            this.clbCours.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.clbCours.FormattingEnabled = true;
+            this.clbCours.Location = new System.Drawing.Point(27, 256);
+            this.clbCours.Name = "clbCours";
+            this.clbCours.Size = new System.Drawing.Size(120, 94);
+            this.clbCours.TabIndex = 41;
+            // 
             // FormMatiere
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.clbCours);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.cbCours);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
@@ -137,7 +137,7 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.ComboBox cbCours;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.CheckedListBox clbCours;
     }
 }

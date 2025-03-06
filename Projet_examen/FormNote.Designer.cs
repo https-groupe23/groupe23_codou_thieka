@@ -32,11 +32,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cbEtudiant = new System.Windows.Forms.ComboBox();
+            this.cbMatiere = new System.Windows.Forms.ComboBox();
+            this.txtNote = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -76,36 +76,36 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(246, 76);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(518, 282);
+            this.dataGridView1.Size = new System.Drawing.Size(518, 286);
             this.dataGridView1.TabIndex = 19;
             // 
-            // comboBox1
+            // cbEtudiant
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(30, 146);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(169, 21);
-            this.comboBox1.TabIndex = 34;
+            this.cbEtudiant.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.cbEtudiant.FormattingEnabled = true;
+            this.cbEtudiant.Location = new System.Drawing.Point(30, 146);
+            this.cbEtudiant.Name = "cbEtudiant";
+            this.cbEtudiant.Size = new System.Drawing.Size(169, 21);
+            this.cbEtudiant.TabIndex = 34;
             // 
-            // comboBox2
+            // cbMatiere
             // 
-            this.comboBox2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(30, 229);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(169, 21);
-            this.comboBox2.TabIndex = 35;
+            this.cbMatiere.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.cbMatiere.FormattingEnabled = true;
+            this.cbMatiere.Location = new System.Drawing.Point(30, 229);
+            this.cbMatiere.Name = "cbMatiere";
+            this.cbMatiere.Size = new System.Drawing.Size(169, 21);
+            this.cbMatiere.TabIndex = 35;
             // 
-            // textBox1
+            // txtNote
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Location = new System.Drawing.Point(30, 307);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(169, 29);
-            this.textBox1.TabIndex = 36;
+            this.txtNote.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtNote.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtNote.Location = new System.Drawing.Point(30, 307);
+            this.txtNote.Multiline = true;
+            this.txtNote.Name = "txtNote";
+            this.txtNote.Size = new System.Drawing.Size(169, 29);
+            this.txtNote.TabIndex = 36;
             // 
             // label4
             // 
@@ -117,15 +117,16 @@
             this.label4.TabIndex = 37;
             this.label4.Text = "Note";
             // 
-            // button1
+            // btnAdd
             // 
-            this.button1.BackColor = System.Drawing.Color.Green;
-            this.button1.Location = new System.Drawing.Point(30, 380);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(91, 44);
-            this.button1.TabIndex = 50;
-            this.button1.Text = "Enregistrer";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnAdd.BackColor = System.Drawing.Color.Green;
+            this.btnAdd.Location = new System.Drawing.Point(30, 380);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(91, 44);
+            this.btnAdd.TabIndex = 50;
+            this.btnAdd.Text = "Enregistrer";
+            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.button1_Click);
             // 
             // FormNote
             // 
@@ -133,17 +134,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.txtNote);
+            this.Controls.Add(this.cbMatiere);
+            this.Controls.Add(this.cbEtudiant);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FormNote";
-            this.Text = "FormNote";
+            this.Load += new System.EventHandler(this.FormNote_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -156,10 +157,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox cbEtudiant;
+        private System.Windows.Forms.ComboBox cbMatiere;
+        private System.Windows.Forms.TextBox txtNote;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAdd;
     }
 }
